@@ -31,7 +31,7 @@ void GetMenu()
             Console.WriteLine("Что вы хотите заменить?");
             string sel = Console.ReadLine();
             string a = st.ToString();
-            bool b = char.TryParse(a,out var sell);
+            bool b = char.TryParse(a, out var sell);
             if (!a.Contains(sel))
             {
                 Console.WriteLine();
